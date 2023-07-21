@@ -1,0 +1,236 @@
+.nav-pages{
+    font-size: 18px;
+    color: black;
+
+}
+.heading{
+    color: #339710;
+    font-size: 110px;
+    font-family: 'Averia Serif Libre', cursive;
+    
+}
+.para{
+    color: #3A3A3A;
+    font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+}
+.btn{
+    padding: 15px 75px;
+    font-size: 15px;
+    color: white;
+    background-color: #DDA619 !important;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.li-color{
+    color: #339710;
+    text-decoration: underline,solid #339710;
+  
+    
+}
+.text-bold{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 24px;
+}
+.font-intr-12px{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+}
+
+.padding-sections{
+padding: 100px 0;
+font-family: 'Inter';
+}
+.padding-section{
+    font-family: 'Inter';
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    height: 2px;
+    background-color: #339710;
+    border: none;
+}
+.text-bold-18px{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 18px;
+}
+.text-bold-48px{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 48px;
+}
+.font-intr-18px{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+}
+.card-style{
+border-radius: 50px;
+background: rgba(51, 151, 16, 0.10);
+padding: 60px 0;
+font-family: 'Inter';
+}
+.font-jhoey-18px{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 18px;
+    color: #339710;
+}
+.font-jhoney-p{
+    font-family: 'Inter Tight ital', sans-serif ;
+    font-size: 14px;
+    
+}
+
+.arrow-padding-img{
+padding-left: 80px;
+}
+
+.right-arrow{
+    padding-right: 70px;
+}
+
+.img-padding{
+    padding: 0 0 0 0px;
+}
+.stay-updated{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 36px;
+}
+.stay-updated-para{
+    font-family: 'Inter Tight ital', sans-serif ;
+    font-size: 14px;
+}
+#input-style{
+    width:500px; 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #339710;
+    font-family: 'Inter Tight ital', sans-serif ;
+    font-size: 14px;
+}
+.Copyright-txt{
+    font-family: 'Inter Tight ital', sans-serif ;
+    font-size: 12px;
+}
+.btn-style{
+    background-color: #DDA619 !important;
+    padding: 14px 14px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10px;
+}
+
+.icons-padding{
+    padding: 50px 0;
+    margin-top: 5px;
+}
+
+.position-comma{
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+
+.lists{
+    padding: 100px 0 0 0;
+}
+.cols-padding{
+    margin-top: 50px;
+}
+.cols-padding-2nd{
+    margin-top: 100px;
+}
+.line-4{
+    position: absolute; 
+    left: 15%;
+    bottom: 0%;
+    width: 500px;
+}
+.line-6{
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+}
+.margen-bottom{
+   margin-bottom: 150px;
+}
+@media(max-width: 768px) {
+    .padding-sections{
+        padding: 20px 0;
+        font-family: 'Inter';
+        text-align: center;
+    }
+
+    .heading{
+        color: #339710;
+        font-size: 80px;
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+    .arrow-padding-img{
+        padding: 0;
+    }
+    .img-padding{
+        padding: 0;
+    }
+
+    #input-style{
+        width: 300px;
+    }
+
+    .cols-padding{
+        padding: 20px 0 0 0;
+    }
+
+    .cards-position{
+        text-align: left;
+    }
+
+    .arrow-padding-img{
+        display: none;
+    }
+
+    .right-arrow{
+        display: none;
+    }
+    .lists{
+       display: flex; justify-content: center;
+       padding: 20px;
+    }
+    .links-cnter{
+        text-align: center;
+    }
+    .extra-margen-media-q{
+        margin-bottom: 60px;
+    }
+    .media-jhony-img{
+        display: flex; align-items:first baseline;
+    }
+    .line-4{
+        display: none;
+    }
+    .line-6{
+        display: none;
+    }
+}
+@media(max-width: 179px){
+    .heading{
+        color: #339710;
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn{
+        align-items: center;
+    }
+    .cards-position{
+        text-align: center;
+    }
+    .img-size{
+        width: 25px;
+        
+    }
+}
